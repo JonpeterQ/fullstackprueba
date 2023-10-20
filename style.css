@@ -1,11 +1,18 @@
 h1 {
     background-color: #BCA37F;
     text-align: center;
-   }
+    border: groove 20px red;
+}
 h2 {background-color: #BCA37F;}
 
 #imagef{
     float: right;
+}
+#imagecent {
+    border: ridge 20px rgb(84, 157, 92);
+    margin-top: 10px;
+    margin-bottom: 10px;
+
 }
 
 body {background-color: #FFF2D8;}
