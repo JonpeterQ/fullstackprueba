@@ -1,9 +1,10 @@
 h1 {
     background-color: #BCA37F;
     text-align: center;
-    border: groove red;
+    border: ridge red;
     border-width: 20px 10px;
     border-radius: 10px;
+    margin-top: 40px;
 }
 h2 {background-color: #BCA37F;}
 
@@ -12,9 +13,9 @@ h2 {background-color: #BCA37F;}
 }
 #imagecent {
     border: ridge 20px rgb(84, 157, 92);
+    border-radius: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
-
 }
 
 body {background-color: #FFF2D8;}
