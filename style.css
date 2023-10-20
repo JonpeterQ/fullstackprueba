@@ -1,5 +1,12 @@
-h1 {background-color: #BCA37F;}
+h1 {
+    background-color: #BCA37F;
+    text-align: center;
+   }
 h2 {background-color: #BCA37F;}
+
+#imagef{
+    float: right;
+}
 
 body {background-color: #FFF2D8;}
 td[class="name"] {background-color: #EAD7BB;}
