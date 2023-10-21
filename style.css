@@ -40,3 +40,15 @@ body {background-color: #FFF2D8;}
 td[class="name"] {background-color: #EAD7BB;}
 th[id="top"] {background-color: #113946;}
 p[class="title"] {color: white;}
+
+@media only screen and (max-width: 800px){
+    table{
+        width: 100%;
+    }
+    iframe[title="YouTube video player"]{
+        width: 100%;
+    }
+    .flag{
+        width: 100%;
+    }
+}
