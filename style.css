@@ -31,6 +31,11 @@ h2 {
     margin-bottom: 10px;
 }
 
+#text{
+    display: flex;
+    flex-direction:;
+}
+
 body {background-color: #FFF2D8;}
 td[class="name"] {background-color: #EAD7BB;}
 th[id="top"] {background-color: #113946;}
