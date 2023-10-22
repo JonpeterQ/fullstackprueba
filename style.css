@@ -51,7 +51,7 @@ td[class="name"] {background-color: #EAD7BB;}
 th[id="top"] {background-color: #113946;}
 p[class="title"] {color: white;}
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 600px){
     table{
         width: 100%;
     }
@@ -61,7 +61,8 @@ p[class="title"] {color: white;}
     .flag{
         width: 100%;
     }
-    header{
-        
+    a[class="btn btn-primary btn-sm"]{
+        width: 100%;
     }
+   
 }
