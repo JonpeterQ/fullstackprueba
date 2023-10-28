@@ -74,3 +74,13 @@ if(persona.sexo=="M"){
 }
 
 persona.sexo=="M"? console.log("Es un hombre"):console.log("es mujer")
+
+//ciclos
+
+for(let i=1; i<5;i++){
+    console.log(i+" elefantes se balanceaban sobre la tela de la araña");
+}
+
+for(i = 0; i < nombres.length; i++){
+    console.log(nombres[i]);
+}
