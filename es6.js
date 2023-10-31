@@ -38,8 +38,8 @@ inicio();
 })();
 
 //arrays
-
-const baloto = [ 15, 34, 84, 35, 95, 20, 34];
+const arraymethods =() =>{
+    const baloto = [ 15, 34, 84, 35, 95, 20, 34];
 console.log(baloto);
 
 // agregar un elemento al final del array
@@ -65,3 +65,5 @@ baloto.forEach((el)=>{console.log(el)});
 
 const filteredNumbers = baloto.filter((el)=>el>=30);
 console.log(filteredNumbers);
+}
+
