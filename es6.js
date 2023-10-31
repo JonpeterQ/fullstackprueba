@@ -28,10 +28,6 @@ function inicio(){
     console.log(result3);
 
 }
-
-inicio();
-
-
 //immediatly invoked function expression iife
 (function(){
     console.log("hola mundo");
