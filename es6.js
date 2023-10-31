@@ -31,3 +31,37 @@ function inicio(){
 
 inicio();
 
+
+//immediatly invoked function expression iife
+(function(){
+    console.log("hola mundo");
+})();
+
+//arrays
+
+const baloto = [ 15, 34, 84, 35, 95, 20, 34];
+console.log(baloto);
+
+// agregar un elemento al final del array
+baloto.push(30);
+console.log(baloto)
+
+// agregar un elemento al inicio del array
+baloto.unshift(4);
+console.log(baloto);
+
+// eliminar el ultimo elemento del array
+baloto.pop();
+console.log(baloto);
+
+//eliminar el primer elemento
+baloto.shift();
+console.log(baloto)
+
+const array2 = baloto.map((el)=>el=el*2);
+console.log(array2);
+
+baloto.forEach((el)=>{console.log(el)});
+
+const filteredNumbers = baloto.filter((el)=>el>=30);
+console.log(filteredNumbers);
