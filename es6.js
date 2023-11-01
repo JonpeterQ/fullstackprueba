@@ -63,3 +63,54 @@ const filteredNumbers = baloto.filter((el)=>el>=30);
 console.log(filteredNumbers);
 }
 
+const demoCallback = () =>{
+    const saludes=(funcion)=>{
+        console.log("hola mundote");
+        funcion();
+    }
+
+    const despedir=()=>{
+        console.log("adios");
+    }
+
+    saludes(despedir);
+
+
+    const timer = (fn)=>{
+        console.log("la siguiente funcion se ejecutara en 2 segunods");
+        setTimeout(fn,6000);
+    }
+
+    timer(despedir)
+    
+}
+
+
+const demoPromesas = ()=>{
+    let promesa = new Promise((resolve, reject)=>{
+        setTimeout(()=>{
+            resolve("la promesa se resolvió");
+        },5000)
+    })
+
+    promesa
+    .then((response)=>console.log(response))
+    .catch((error)=>console.log(error));
+
+
+    let promesa2 = new Promise((resolve, reject)=>{
+        let number =Math.floor(Math.random()*10);
+        if(number%2==0){
+            resolve(number);
+        }else{
+            reject(number);
+        }
+    })
+
+    promesa2
+    .then((response)=>console.info(`el numero ${response} es par`))
+    .catch((error)=>console.error(`el numero ${response} ess impar`));
+}
+
+demoPromesas();
+
